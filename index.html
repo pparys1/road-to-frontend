@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Moja pierwsza strona</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Cześć, jestem Parys!</h1>
+    <p>To moja pierwsza strona w repozytorium GitHub 🚀</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>O mnie</h2>
+      <p>Uczę się front-endu krok po kroku. To dopiero początek!</p>
+    </section>
+
+    <section>
+      <h2>Moje cele</h2>
+      <ul>
+        <li>Nauczyć się HTML i CSS</li>
+        <li>Poznać JavaScript</li>
+        <li>Zostać front-end developerem</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Parys</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
