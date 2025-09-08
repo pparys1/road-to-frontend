@@ -8,28 +8,43 @@
 </head>
 <body>
   <header class="site-header">
-    <h1>Cześć, jestem Parys!</h1>
-    <p>To moja pierwsza strona w repozytorium GitHub 🚀</p>
+    <div class="container header-inner">
+      <h1>Cześć, jestem Parys!</h1>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#about">O mnie</a></li>
+          <li><a href="#goals">Cele</a></li>
+          <li><a href="#projects">Projekty</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
+  <main class="container">
+    <section id="about">
       <h2>O mnie</h2>
-      <p>Uczę się front-endu krok po kroku. To dopiero początek!</p>
+      <p>Uczę się front-endu krok po kroku.</p>
     </section>
 
-    <section>
+    <section id="goals">
       <h2>Moje cele</h2>
       <ul>
         <li>Nauczyć się HTML i CSS</li>
         <li>Poznać JavaScript</li>
-        <li>Zostać front-end developerem</li>
+        <li>Zbudować portfolio</li>
       </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projekty</h2>
+      <div class="projects-grid">
+        <!-- w następnym ćwiczeniu dodamy karty -->
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> Parys</p>
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Parys</div>
   </footer>
 
   <script>
