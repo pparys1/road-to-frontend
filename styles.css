@@ -51,3 +51,14 @@ main h2 { color: var(--brand); margin-top:1rem; }
 
 .card-title { margin:0 0 0.5rem 0; }
 .card-desc { color: var(--muted); margin-bottom: 1rem; }
+
+.hero { padding: 1.2rem 0; }
+.hero-inner { display:flex; flex-direction:column; gap:1rem; align-items:center; }
+.hero-image img { max-width:100%; height:auto; border-radius:8px; }
+
+/* wersja dla większych ekranów */
+@media (min-width: 760px) {
+  .hero-inner { flex-direction:row; align-items:center; }
+  .hero-text { flex:1; }
+  .hero-image { flex:1; display:flex; justify-content:center; }
+}
