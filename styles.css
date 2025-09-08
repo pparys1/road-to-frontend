@@ -62,3 +62,9 @@ main h2 { color: var(--brand); margin-top:1rem; }
   .hero-text { flex:1; }
   .hero-image { flex:1; display:flex; justify-content:center; }
 }
+
+.projects-grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
