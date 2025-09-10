@@ -5,79 +5,48 @@
   <title>Moja pierwsza strona</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Moja pierwsza strona</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <h1>Cześć, jestem Parys!</h1>
-      <nav id="main-nav">
-        <ul>
-          <li><a href="#about">O mnie</a></li>
-          <li><a href="#goals">Cele</a></li>
-          <li><a href="#projects">Projekty</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<header>
+  <h1>Moja strona</h1>
+  <nav>
+    <a href="#o-mnie">O mnie</a> |
+    <a href="#portfolio">Portfolio</a> |
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
 
-  <main class="container">
-    <section class="hero">
-     <div class="hero-inner">
-      <div class="hero-text">
-       <h2>Tworzę proste i ładne strony</h2>
-       <p>Uczę się tworzyć responsywne układy, używać Flexbox i Grid.</p>
-       <a class="btn" href="#projects">Zobacz projekty</a>
-      </div>
-      <div class="hero-image">
-       <img src="https://placehold.co/600x400" alt="Przykładowy obrazek" />
-      </div>
-     </div>
-</section>
-    <section id="about">
+  <main>
+    <section id="o-mnie">
       <h2>O mnie</h2>
-      <p>Uczę się front-endu krok po kroku.</p>
+      <p>Tu napisz krótki tekst o sobie.</p>
     </section>
 
-    <section id="goals">
-      <h2>Moje cele</h2>
-      <ul>
-        <li>Nauczyć się HTML i CSS</li>
-        <li>Poznać JavaScript</li>
-        <li>Zbudować portfolio</li>
-      </ul>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Przykładowe projekty w przyszłości tu się znajdą.</p>
     </section>
 
-    <section id="projects">
-      <h2>Projekty</h2>
-      <div class="projects-grid">
-       <div class="projects-grid">
-        <article class="card">
-          <h3 class="card-title">Landing Page</h3>
-          <p class="card-desc">Prosta strona wizytówka z formularzem kontaktowym.</p>
-          <a class="btn" href="#">Zobacz</a>
-        </article>
-
-        <article class="card">
-          <h3 class="card-title">Katalog Filmów</h3>
-          <p class="card-desc">Lista filmów pobierana z API (mock).</p>
-          <a class="btn" href="#">Zobacz</a>
-        </article>
-
-         <article class="card">
-          <h3 class="card-title">Blog</h3>
-          <p class="card-desc">Blog z postami generowanymi statycznie.</p>
-          <a class="btn" href="#">Zobacz</a>
-        </article>
-        </div>
-      </div>
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Email: twojemail@example.com</p>
     </section>
+
+
   </main>
 
-  <footer class="site-footer">
-    <div class="container">© <span id="year"></span> Parys</div>
+  <footer>
+    <p>Stopka strony — © 2025 Twoje Imię</p>
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
+
+</html>
 </html>
