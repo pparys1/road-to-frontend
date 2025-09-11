@@ -86,3 +86,7 @@ footer {
   height: auto;
   display: block;
 }
+
+.right img {
+  border: 5px solid red;
+}
