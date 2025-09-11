@@ -74,3 +74,9 @@ footer {
 .right {
   flex: 1;
 }
+
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+}
