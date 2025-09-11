@@ -59,3 +59,18 @@ footer {
   color: white;
   font-weight: bold;
 }
+
+.columns {
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  flex: 2;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.right {
+  flex: 1;
+}
