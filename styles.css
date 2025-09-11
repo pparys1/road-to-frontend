@@ -78,5 +78,6 @@ footer {
 @media (max-width: 600px) {
   .columns {
     flex-direction: column;
+    background-color: pink;
   }
 }
