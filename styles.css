@@ -156,3 +156,21 @@ footer {
   background-color: #0056b3;
   transform: scale(1.05);
 }
+
+/* Formularz */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#form-message {
+  margin-top: 10px;
+  font-weight: bold;
+}

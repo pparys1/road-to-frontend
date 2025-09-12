@@ -10,12 +10,14 @@
 
 <body>
 <header>
-  <h1>Moja strona</h1>
+  <h1 id="main-title">Moja strona</h1>
   <nav>
     <a href="#o-mnie">O mnie</a> |
     <a href="#portfolio">Portfolio</a> |
     <a href="#kontakt">Kontakt</a>
   </nav>
+  <button id="change-title">Zmień tytuł</button>
+  <button id="change-color">Zmień kolor</button>
 </header>
 
   <main>
@@ -47,9 +49,18 @@
       </div>
     </section>
 
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>Email: twojemail@example.com</p>
+    <section id="formularz">
+      <h2>Formularz kontaktowy</h2>
+      <form id="contact-form">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" placeholder="Wpisz swoje imię">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Wpisz swój email">
+
+        <button type="submit">Wyślij</button>
+      </form>
+      <p id="form-message"></p>
     </section>
 
     <section>
@@ -79,5 +90,6 @@
   <footer>
     <p>Stopka strony — © 2025 Twoje Imię</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
